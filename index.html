@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./assets/css/tailwind.css" rel="stylesheet">
+    <link href="./assets/css/main.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@iconscout/unicons@3.0.6/css/line.css">
+    <title>_Play</title>
+    <style>
+.hide-scroll-bar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.hide-scroll-bar::-webkit-scrollbar {
+  display: none;
+}
+</style>
+</head>
+<body>
+    <!-- component -->
+
+    <!-- component -->
+<!-- I've set max-w-screen-md, you may need to change it -->
+    <nav class="fixed max-w-6xl z-10 mx-auto inset-x-0 top-0 flex justify-between items-center">
+      
+        <a href="#" class="font-extrabold m-3 ml-0 uppercase inline-flex hover:text-pink-700 transition-all duration-500">
+            
+            <svg class="h-6 w-24 mr-2" viewBox="0 0 93 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1.304 29.08C1.06933 29.08 0.866667 28.9947 0.696 28.824C0.525333 28.6533 0.44 28.4507 0.44 28.216V7.224C0.44 6.98933 0.525333 6.78667 0.696 6.616C0.866667 6.44533 1.06933 6.36 1.304 6.36H6.744C6.97867 6.36 7.18133 6.44533 7.352 6.616C7.52267 6.78667 7.608 6.98933 7.608 7.224V8.184C8.09867 7.56533 8.728 7.05333 9.496 6.648C10.2853 6.24267 11.2347 6.04 12.344 6.04C13.2827 6.04 14.1467 6.17867 14.936 6.456C15.7253 6.712 16.4187 7.13867 17.016 7.736C17.6347 8.312 18.1253 9.06933 18.488 10.008C18.8507 10.9467 19.064 12.088 19.128 13.432C19.1493 13.9013 19.16 14.3173 19.16 14.68C19.16 15.0427 19.1493 15.4693 19.128 15.96C19.0853 17.2187 18.8827 18.3173 18.52 19.256C18.1573 20.1733 17.6667 20.9307 17.048 21.528C16.4507 22.1253 15.7467 22.5733 14.936 22.872C14.1467 23.1707 13.2827 23.32 12.344 23.32C11.448 23.32 10.6373 23.1707 9.912 22.872C9.18667 22.5733 8.57867 22.0827 8.088 21.4V28.216C8.088 28.4507 8.00267 28.6533 7.832 28.824C7.66133 28.9947 7.45867 29.08 7.224 29.08H1.304ZM9.688 17.592C10.0933 17.592 10.4027 17.5173 10.616 17.368C10.8293 17.2187 10.9787 17.0053 11.064 16.728C11.1707 16.4507 11.2453 16.12 11.288 15.736C11.352 15.032 11.352 14.328 11.288 13.624C11.2453 13.24 11.1707 12.9093 11.064 12.632C10.9787 12.3547 10.8293 12.1413 10.616 11.992C10.4027 11.8427 10.0933 11.768 9.688 11.768C9.304 11.768 8.99467 11.8427 8.76 11.992C8.52533 12.1413 8.35467 12.3547 8.248 12.632C8.16267 12.9093 8.10933 13.24 8.088 13.624C8.06667 14.0933 8.056 14.488 8.056 14.808C8.056 15.1067 8.06667 15.5013 8.088 15.992C8.10933 16.3333 8.17333 16.6213 8.28 16.856C8.408 17.0907 8.57867 17.272 8.792 17.4C9.02667 17.528 9.32533 17.592 9.688 17.592ZM22.4603 23C22.2256 23 22.0229 22.9147 21.8523 22.744C21.6816 22.5733 21.5963 22.3707 21.5963 22.136V1.144C21.5963 0.909333 21.6816 0.706666 21.8523 0.535999C22.0229 0.365332 22.2256 0.279999 22.4603 0.279999H28.1883C28.4229 0.279999 28.6256 0.365332 28.7963 0.535999C28.9669 0.706666 29.0523 0.909333 29.0523 1.144V22.136C29.0523 22.3707 28.9669 22.5733 28.7963 22.744C28.6256 22.9147 28.4229 23 28.1883 23H22.4603ZM37.252 23.32C36.036 23.32 34.9587 23.096 34.02 22.648C33.0813 22.2 32.3453 21.592 31.812 20.824C31.3 20.056 31.044 19.192 31.044 18.232C31.044 16.6747 31.6733 15.4587 32.932 14.584C34.212 13.688 35.9187 13.0587 38.052 12.696L41.444 12.152V12.12C41.444 11.5653 41.3907 11.16 41.284 10.904C41.1987 10.648 40.932 10.52 40.484 10.52C40.1853 10.52 39.94 10.584 39.748 10.712C39.5773 10.8187 39.3853 10.9787 39.172 11.192C38.9373 11.4267 38.6387 11.544 38.276 11.544H32.836C32.6227 11.544 32.4413 11.48 32.292 11.352C32.164 11.224 32.1107 11.0533 32.132 10.84C32.1533 10.4347 32.324 9.96533 32.644 9.432C32.964 8.87733 33.4547 8.344 34.116 7.832C34.7987 7.32 35.6627 6.89333 36.708 6.552C37.7747 6.21067 39.0547 6.04 40.548 6.04C41.9987 6.04 43.2573 6.2 44.324 6.52C45.412 6.81867 46.308 7.26667 47.012 7.864C47.716 8.44 48.2387 9.16533 48.58 10.04C48.9427 10.8933 49.124 11.864 49.124 12.952V22.136C49.124 22.3707 49.0387 22.5733 48.868 22.744C48.6973 22.9147 48.4947 23 48.26 23H42.66C42.4253 23 42.2227 22.9147 42.052 22.744C41.8813 22.5733 41.796 22.3707 41.796 22.136V21.24C41.4973 21.6667 41.1133 22.04 40.644 22.36C40.196 22.6587 39.684 22.8933 39.108 23.064C38.532 23.2347 37.9133 23.32 37.252 23.32ZM39.46 18.584C39.8867 18.584 40.2493 18.4987 40.548 18.328C40.868 18.1573 41.1133 17.8907 41.284 17.528C41.4547 17.144 41.54 16.6747 41.54 16.12V16.088L39.652 16.504C39.0973 16.632 38.724 16.8027 38.532 17.016C38.34 17.2293 38.244 17.4533 38.244 17.688C38.244 17.8373 38.2867 17.9867 38.372 18.136C38.4787 18.264 38.6173 18.3707 38.788 18.456C38.98 18.5413 39.204 18.584 39.46 18.584ZM54.4235 29.08C54.2315 29.08 54.0608 29.016 53.9115 28.888C53.7835 28.76 53.7195 28.6 53.7195 28.408C53.7195 28.3653 53.7195 28.312 53.7195 28.248C53.7195 28.2053 53.7302 28.152 53.7515 28.088L56.3115 21.944L50.1355 7.352C50.1142 7.288 50.1035 7.21333 50.1035 7.128C50.1462 6.91467 50.2315 6.73333 50.3595 6.584C50.5088 6.43467 50.6902 6.36 50.9035 6.36H56.3115C56.6315 6.36 56.8662 6.44533 57.0155 6.616C57.1648 6.78667 57.2715 6.95733 57.3355 7.128L59.9595 14.424L62.6795 7.128C62.7648 6.936 62.8822 6.76533 63.0315 6.616C63.2022 6.44533 63.4475 6.36 63.7675 6.36H69.1115C69.3035 6.36 69.4742 6.43467 69.6235 6.584C69.7728 6.712 69.8475 6.86133 69.8475 7.032C69.8475 7.16 69.8368 7.26667 69.8155 7.352L60.7915 28.312C60.7062 28.504 60.5782 28.6747 60.4075 28.824C60.2368 28.9947 59.9915 29.08 59.6715 29.08H54.4235ZM71.9513 26.136C71.7166 26.136 71.5139 26.0507 71.3433 25.88C71.1726 25.7093 71.0872 25.5067 71.0872 25.272V20.728C71.0872 20.4933 71.1726 20.2907 71.3433 20.12C71.5139 19.9493 71.7166 19.864 71.9513 19.864H91.3113C91.5459 19.864 91.7486 19.9493 91.9193 20.12C92.0899 20.2907 92.1753 20.4933 92.1753 20.728V25.272C92.1753 25.5067 92.0899 25.7093 91.9193 25.88C91.7486 26.0507 91.5459 26.136 91.3113 26.136H71.9513Z" fill="black"/>
+            </svg>
+         
+        </a>
+      
+        <button id="mobileMenuButton" class="p-3 focus:outline-none md:hidden" title="Open side menu">
+          <!-- SVG For "x" button -->
+            <svg id="mobileMenuButtonClose" class="w-6 h-6 hidden" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" /></svg>
+          <!-- SVG For "Menu burger" button -->
+            <svg id="mobileMenuButtonOpen" class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+        </button>
+      
+      <!-- List of nav item -->
+        <div id="sideMenuHideOnMobile" class=" font-semibold z-10 rounded-bl-md flex absolute top-0 right-0 transition-all duration-500 transform translate-x-0
+                                              w-1/2 md:w-auto
+                                              px-3 md:px-0
+                                              flex-col md:flex-row
+                                              -translate-y-full md:translate-y-0
+                                              md:mt-1 md:items-center md:mx-1 ">
+            <a href="#" class="mx-0 sm:mx-3.5 my-2 border-b-2 border-transparent hover:border-pink-600 hover:text-pink-700 transition-all duration-500 py-1 sm:p-0">Home</a>
+            <a href="#" class="mx-0 sm:mx-3.5 my-2 border-b-2 border-transparent hover:border-pink-600 hover:text-pink-700 transition-all duration-500 py-1 sm:p-0">Services</a>
+            <a href="#" class="mx-0 sm:mx-3.5 my-2 border-b-2 border-transparent hover:border-pink-600 hover:text-pink-700 transition-all duration-500 py-1 sm:p-0">Pricing</a>
+            <a href="#" class="mx-0 sm:mx-3.5 my-2 border-b-2 border-transparent hover:border-pink-600 hover:text-pink-700 transition-all duration-500 py-1 sm:p-0">About</a>
+            <div class="inline-flex rounded-md bg-blue-500 shadow sm:ml-20 my-1">
+                <a href="#" class="text-gray-200 font-bold py-2 px-6 ">
+                    Contact Us
+                </a>
+            </div>
+        </div>
+      
+    </nav>
+
+    <div class="max-w-6xl mx-auto  h-screen text-gray-800 flex  flex-col md:flex-row items-center">
+        <div class="my-auto  flex flex-col w-full lg:w-1/3 justify-center items-start">
+            <h2 class="text-7xl font-bold">We design for games.</h2>
+            <p class="py-10">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus nisi rem praesentium facilis molestias porro neque. Quibusdam error maxime tenetur.</p>
+            <div class="inline-flex rounded-md bg-blue-500 shadow my-1">
+                <a href="#" class="text-gray-200 font-bold py-2 px-6 ">
+                    Get Started
+                </a>
+            </div>
+        </div>
+        <div class=" mt-12 mb-6 md:mb-0 md:mt-0 ml-0 md:ml-12 lg:w-2/3  justify-center">
+        <img src="assets/imgs/hero-image.svg" alt="Hero"/></div>
+    </div>
+
+   <div class="max-w-6xl m-auto">
+   <div class="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 grid-cols-1 gap-4 px-4">
+    <!-- SMALL CARD ROUNDED -->
+    <div class="w-full max-w-sm mx-auto  overflow-hidden">
+                    <div class="flex items-end rounded-xl justify-end h-96 w-full bg-cover" style="background-image: url('./assets/imgs/fortnite\ 1.png')">
+                        
+                    </div>
+                    <div class="px-5 py-3 text-center">
+                        <h3 class="text-gray-700 uppercase">Samantha Rea</h3>
+                        <span class="text-gray-500 mt-2">Product Designer</span>
+                    </div>
+                </div>
+    <!-- END SMALL CARD ROUNDED -->
+
+    <!-- SMALL CARD ROUNDED -->
+    <div class="w-full max-w-sm mx-auto   overflow-hidden">
+                    <div class="flex items-end rounded-xl justify-end h-96 w-full bg-cover" style="background-image: url('./assets/imgs/game.png')">
+                        
+                    </div>
+                    <div class="px-5 py-3 text-center">
+                        <h3 class="text-gray-700 uppercase">John Doe</h3>
+                        <span class="text-gray-500 mt-2">SEO Specialist</span>
+                    </div>
+                </div>
+    <!-- END SMALL CARD ROUNDED -->
+
+    <!-- SMALL CARD ROUNDED -->
+    <div class="w-full max-w-sm mx-auto   overflow-hidden">
+                    <div class="flex items-end rounded-xl justify-end h-96 w-full bg-cover" style="background-image: url('./assets/imgs/red_crop.png')">
+                        
+                    </div>
+                    <div class="px-5 py-3 text-center">
+                        <h3 class="text-gray-700 uppercase">Sarah Jae</h3>
+                        <span class="text-gray-500 mt-2">Branding Specialist</span>
+                    </div>
+                </div>
+    <!-- END SMALL CARD ROUNDED -->
+  </div>
+
+  <div class="flex justify-center m-auto ">
+      <a href="#" class="flex items-center text-blue-600">
+          View all
+          <svg  class="ml-2 w-8 h-3" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M19 8H1M12 1L19 8L12 1ZM19 8L12 15L19 8Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+  </div>
+    </div>
+
+<!-- component -->
+<div class="flex flex-col m-auto p-auto">
+      <div
+        class="flex overflow-x-scroll py-10 hide-scroll-bar"
+      >
+        <div
+          class="flex flex-nowrap max-w-6xl m-auto pt-16"
+        >
+          <div class="inline-block px-3">
+            <div
+              class="w-96 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"
+            ></div>
+          </div>
+          <div class="inline-block px-3">
+            <div
+              class="w-96 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"
+            ></div>
+          </div>
+          <div class="inline-block px-3">
+            <div
+              class="w-96 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"
+            ></div>
+          </div>
+          <div class="inline-block px-3">
+            <div
+              class="w-96 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"
+            ></div>
+          </div>
+          <div class="inline-block px-3">
+            <div
+              class="w-96 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out"
+            ></div>
+          </div>
+         
+        </div>
+      </div>
+</div>
+
+    <div class="max-w-6xl m-auto">
+   <div class="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 grid-cols-1 gap-4 px-4">
+    <!-- SMALL CARD ROUNDED -->
+    <div class="w-full max-w-sm mx-auto  overflow-hidden">
+                    <div class="flex items-end rounded-xl justify-end h-96 w-full bg-cover" style="background-image: url('./assets/imgs/team-one.png')">
+                        
+                    </div>
+                    <div class="px-5 py-3 text-center">
+                        <h3 class="text-gray-700 uppercase">Samantha Rea</h3>
+                        <span class="text-gray-500 mt-2">Product Designer</span>
+                    </div>
+                </div>
+    <!-- END SMALL CARD ROUNDED -->
+
+    <!-- SMALL CARD ROUNDED -->
+    <div class="w-full max-w-sm mx-auto   overflow-hidden">
+                    <div class="flex items-end rounded-xl justify-end h-96 w-full bg-cover" style="background-image: url('./assets/imgs/team-two.png')">
+                        
+                    </div>
+                    <div class="px-5 py-3 text-center">
+                        <h3 class="text-gray-700 uppercase">John Doe</h3>
+                        <span class="text-gray-500 mt-2">SEO Specialist</span>
+                    </div>
+                </div>
+    <!-- END SMALL CARD ROUNDED -->
+
+    <!-- SMALL CARD ROUNDED -->
+    <div class="w-full max-w-sm mx-auto   overflow-hidden">
+                    <div class="flex items-end rounded-xl justify-end h-96 w-full bg-cover" style="background-image: url('./assets/imgs/team-three.png')">
+                        
+                    </div>
+                    <div class="px-5 py-3 text-center">
+                        <h3 class="text-gray-700 uppercase">Sarah Jae</h3>
+                        <span class="text-gray-500 mt-2">Branding Specialist</span>
+                    </div>
+                </div>
+    <!-- END SMALL CARD ROUNDED -->
+  </div>
+
+  <div class="flex justify-center m-auto ">
+      <a href="#" class="flex items-center text-blue-600">
+          View all
+          <svg  class="ml-2 w-8 h-3" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M19 8H1M12 1L19 8L12 1ZM19 8L12 15L19 8Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+  </div>
+    </div>
+
+
+
+
+<footer class="bg-gray-800 pt-10 sm:mt-10 pt-10">
+    <div class="max-w-6xl m-auto text-gray-800 flex flex-wrap">
+        <!-- Col-1 -->
+        <div class="py-5 pr-5 w-1/2 sm:w-3/12 md:w-4/12">
+            <!-- Col Title -->
+            <div class="text-xs uppercase text-gray-400 font-medium mb-6">
+                Getting Started
+            </div>
+
+           
+        </div>
+
+        <!-- Col-2 -->
+        <div class="p-5 w-1/2 sm:w-3/12 md:w-2/12">
+            <!-- Col Title -->
+            <div class="text-xs uppercase text-gray-400 font-medium mb-6">
+                Home
+            </div>
+
+            <!-- Links -->
+            <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+                Partners
+            </a>
+            <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+                Features
+            </a>
+            <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+                Testimonial
+            </a>
+            <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+                Team
+            </a>
+            
+        </div>
+
+        <!-- Col-3 -->
+        <div class="p-5 w-1/2 sm:w-3/12 md:w-2/12">
+            <!-- Col Title -->
+            <div class="text-xs uppercase text-gray-400 font-medium mb-6">
+                Pages
+            </div>
+
+            <!-- Links -->
+            <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+                About Us
+            </a>
+            <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+                Careers
+            </a>
+            <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+                Breakpoints
+            </a>
+            <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+                Case Studies
+            </a>
+            <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+                Pricing
+            </a>
+            
+        </div>
+
+        <!-- Col-3 -->
+        <div class="p-5 w-1/2 sm:w-3/12 md:w-2/12">
+            <!-- Col Title -->
+            <div class="text-xs uppercase text-gray-400 font-medium mb-6">
+                Blog
+            </div>
+
+            <!-- Links -->
+            <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+                Blog Listing
+            </a>
+            <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+                Blog Article
+            </a>
+            <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+                Newsroom
+            </a>
+           
+        </div>
+        <!-- Col-3 -->
+        <div class="p-5 w-1/2 sm:w-3/12 md:w-2/12">
+            <!-- Col Title -->
+            <div class="text-xs uppercase text-gray-400 font-medium mb-6">
+               Portfolio
+            </div>
+
+            <!-- Links -->
+            <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+                Portfolio
+            </a>
+            <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+                Single Case
+            </a>
+        </div>
+    </div>
+
+    <!-- Copyright Bar -->
+    <div class="pt-2">
+            <!-- Required Unicons (if you want) -->
+            
+        <div class="flex  pb-20 m-auto 
+             text-gray-400 text-sm 
+            flex-col md:flex-col max-w-6xl">
+            <div class=" mb-14 flex-row flex">
+                <a href="#" class="w-6 mx-1">
+                    <i class="uil uil-facebook-f"></i>
+                </a>
+                <a href="#" class="w-6 mx-1">
+                    <i class="uil uil-twitter-alt"></i>
+                </a>
+                <a href="#" class="w-6 mx-1">
+                    <i class="uil uil-youtube"></i>
+                </a>
+                <a href="#" class="w-6 mx-1">
+                    <i class="uil uil-linkedin"></i>
+                </a>
+                <a href="#" class="w-6 mx-1">
+                    <i class="uil uil-instagram"></i>
+                </a>
+            </div>
+            <div class="mt-2">
+                &copy; <script>document.write(new Date().getFullYear())</script> Game Analytics.
+            </div>
+
+        
+        </div>
+        </div>
+    
+</footer>
+
+ <script>
+    var mobileMenuButton = document.getElementById("mobileMenuButton");
+    mobileMenuButton.onclick = function() {
+        document.getElementById("sideMenuHideOnMobile").classList.toggle("-translate-y-full");
+        document.getElementById("sideMenuHideOnMobile").classList.toggle("mt-12");
+        document.getElementById("sideMenuHideOnMobile").classList.toggle("shadow");
+        document.getElementById("mobileMenuButtonClose").classList.toggle("hidden");
+        document.getElementById("mobileMenuButtonOpen").classList.toggle("hidden");
+    }
+      // Hide element when click outside nav
+    var theElementContainer = document.getElementsByTagName("nav")[0];
+    document.addEventListener('click', function(event) {
+        if (!theElementContainer.contains(event.target)) {
+            document.getElementById("sideMenuHideOnMobile").classList.add("-translate-y-full");
+            document.getElementById("sideMenuHideOnMobile").classList.remove("mt-12");
+            document.getElementById("sideMenuHideOnMobile").classList.remove("shadow");
+            document.getElementById("mobileMenuButtonOpen").classList.remove("hidden");
+            document.getElementById("mobileMenuButtonClose").classList.add("hidden");
+        }
+    });
+    </script>
+</body>
+</html>
